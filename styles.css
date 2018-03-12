@@ -35,12 +35,35 @@ main {
 button {
     font-family: 'Amatic SC', monospace;
     background-color: #ED43AB;
-    border-radius: 1px;
+  border-radius: 12px;
     border: none;
     width: 50%;
     height: 50%;
     max-width: 730px;
-    margin: auto;
+  margin: 3%;
+    padding:1.5%;
+    align-items: center;
+}
+
+#whiteNoise{
+  background-color: #ffff;
+  color: #DBB6B6;
+}
+
+#brownNoise{
+  background-color: #AA520F;
+}
+
+#blueNoise{
+  background-color: #02B5EF;
+}
+
+#violetNoise{
+  background-color: #7717C8;
+}
+
+#greyNoise{
+  background-color: #B1B1B2;
 }
 
 footer {
