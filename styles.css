@@ -26,6 +26,13 @@ h2, nav, a, button {
     text-decoration: none;
 }
 
+#popover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
 main {
     width: 90%;
     max-width: 600px;
