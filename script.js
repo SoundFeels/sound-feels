@@ -1,4 +1,4 @@
-var emoji = document.getElementById('emoji')
+var emoji = document.getElementById('emoji');
 
 emoji.addEventListener('click', function(){
     console.log('Buzz buzz buzzzz!');
