@@ -9,6 +9,9 @@ body {
 }
 
 header {
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: #ffb4b4;
     height: 10%;
     padding-top: 1%;
@@ -19,6 +22,9 @@ header {
 h1 {
     font-family: 'Baloo Paaji', sans-serif;
     letter-spacing: 6px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 h2, nav, a, button {
@@ -42,41 +48,153 @@ main {
 button {
     font-family: 'Amatic SC', monospace;
     background-color: #ED43AB;
-  border-radius: 12px;
+    border-radius: 12px;
     border: none;
     width: 50%;
     height: 50%;
     max-width: 730px;
-  margin: 3%;
-    padding:1.5%;
+    margin: 3%;
+    padding: 1.5%;
     align-items: center;
 }
 
-#whiteNoise{
-  background-color: #ffff;
-  color: #DBB6B6;
+
+/* About Button Colors */
+
+#whiteNoise {
+    background-color: #ffffff;
+    color: #DBB6B6;
 }
 
-#brownNoise{
-  background-color: #AA520F;
+#brownNoise {
+    background-color: #AA520F;
 }
 
-#blueNoise{
-  background-color: #02B5EF;
+#blueNoise {
+    background-color: #02B5EF;
 }
 
-#violetNoise{
-  background-color: #7717C8;
+#violetNoise {
+    background-color: #7717C8;
 }
 
-#greyNoise{
-  background-color: #B1B1B2;
+#greyNoise {
+    background-color: #B1B1B2;
+}
+
+
+/* Overlay Styles */
+
+#whiteOverlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: none;
+    background-color: #0d2c5e;
+    color: #ffffff;
+}
+
+#pinkOverlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: none;
+    background-color: #0d2c5e;
+    color: #ED43AB;
+}
+
+#brownOverlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: none;
+    background-color: #0d2c5e;
+    color: #AA520F;
+}
+
+#blueOverlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: none;
+    background-color: #0d2c5e;
+    color: #02B5EF;
+}
+
+#violetOverlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: none;
+    background-color: #0d2c5e;
+    color: #7717C8;
+}
+
+#greyOverlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: none;
+    background-color: #0d2c5e;
+    color: #B1B1B2;
+}
+/* close button styles */
+#closeWhite {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: none;
+}
+
+#closePink {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: none;
+}
+
+#closeBrown {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: none;
+}
+
+#closeBlue {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: none;
+}
+
+#closeViolet {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: none;
+}
+
+#closeGrey {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: none;
 }
 
 footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
     background-color: #DBB6B6;
     height: 10%;
     padding-top: 1%;
+    padding-bottom: 1%;
     text-align: center;
     font-family: 'Baloo Paaji', sans-serif;
     letter-spacing: 2px;
