@@ -8,6 +8,10 @@
     <link href="https://cdn.jsdelivr.net/npm/normalize.css@7.0.0/normalize.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700%7CBaloo+Paaji" rel="stylesheet">
     <link href="../styles.css" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.sound.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.js'></script>
 </head>
 
 <body>
@@ -16,14 +20,19 @@
     </header>
     <div id="games-popover">
         <div id="close-btn">&otimes;</div>
-        <button type="button">1</button>
-        <button type="button">2</button>
-        <button type="button">3</button>
+        <p>Hi you won't be able to play these games yet, it's under construction!</p>
+        <nav id="game-nav">
+            <button id="game-button-1" type="button">1</button>
+            <button id="game-button-2" type="button">2</button>
+            <button id="game-button-3" type="button">3</button>
+
+        </nav>
+        <canvas id=games-canvas></canvas>
     </div>
     <main>
         <h2>Make Some Noise!</h2>
-        <p>To play these games, please allow us to access you microphone and camera! Otherwise they won’t make noise…</p>
-        <button type="button" id="lets-play">Ok! Let's Play!</button>
+        <p>To play these games, please allow us to access you microphone and camera! Otherwise they won’t work.../p>
+            <button type="button" id="lets-play">Ok! Let's Play!</button>
     </main>
     <footer>
         <nav>
