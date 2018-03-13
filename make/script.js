@@ -56,7 +56,7 @@ function draw() {
     }
 
     if (game2 == true) {
-        background('#b00000');
+        background('#0000bb');
     }
 
     if (game3 == true) {
