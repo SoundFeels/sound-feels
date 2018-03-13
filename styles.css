@@ -198,6 +198,11 @@ button {
     display: none;
 }
 
+.topButton {
+  float: left;
+  height: 40px;
+}
+
 footer {
     position: fixed;
     bottom: 0;
