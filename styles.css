@@ -32,6 +32,10 @@ h2, nav, a, button {
     text-decoration: none;
 }
 
+a:hover {
+    color: #ED43AB;
+}
+
 #games-popover {
     position: absolute;
     width: 100%;
@@ -200,7 +204,6 @@ footer {
     font-family: 'Baloo Paaji', sans-serif;
     letter-spacing: 2px;
     font-size: 1.2rem;
-
 }
 
 footer li {
@@ -208,5 +211,5 @@ footer li {
 }
 
 .bottomspace {
-  margin-bottom:18%;
+    margin-bottom: 18%;
 }
