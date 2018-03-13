@@ -36,6 +36,11 @@ a:hover {
     color: #ED43AB;
 }
 
+button:hover {
+    color: #ED43AB;
+    background-color: #ffb4b4;
+}
+
 #games-popover {
     position: absolute;
     width: 100%;
