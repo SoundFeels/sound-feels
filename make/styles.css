@@ -26,10 +26,8 @@ main {
 }
 
 #games-canvas {
-    display: block;
-    background-color: #FDB4B5;
-    width: 90%;
-    height: 60%;
+    width: 800px;
+    height: 400px;
     margin: auto;
 }
 
