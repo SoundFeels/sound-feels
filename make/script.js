@@ -55,6 +55,11 @@ function draw() {
 
     if (game1 == true) {
         background('#bb0000');
+        // get volume of mic
+        var micLevel = mic.getLevel();
+        // draw the ellipse based on mic level
+        ellipse(width / 2, height / 2, constrain(micLevel * height * 30, 0, height), constrain(micLevel * height * 30, 0, height));
+        fill(255, 89, 0);
     }
 
     if (game2 == true) {
