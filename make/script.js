@@ -54,7 +54,7 @@ function setup() { //once
 function draw() {
 
     if (game1 == true) {
-        background('#bb0000');
+        background('#FDB4B5');
         // get volume of mic
         var micLevel = mic.getLevel();
         // draw the ellipse based on mic level
@@ -67,10 +67,9 @@ function draw() {
     }
 
     if (game3 == true) {
-        background(0);
+        background('#FDB4B5');
         var micLevel = mic.getLevel();
         capture.loadPixels();
-
         //draw the matrix of pixels and distorbe them with the mic.
         var stepSize = round(constrain(micLevel * height * 0.6, 5, 400));
         for (var y = 0; y < height; y += stepSize) { //y axis
