@@ -45,7 +45,7 @@ function setup() { //once
     background('#FDB4B5'); //color
     //Experimental
     capture = createCapture(VIDEO);
-    capture.size(600, 400);
+    capture.size(800, 400);
     capture.hide();
     mic = new p5.AudioIn();
     mic.start();
@@ -75,7 +75,7 @@ function draw() {
         for (var y = 0; y < height; y += stepSize) { //y axis
             for (var x = 0; x < width; x += stepSize) { //x axis
                 var i = y * width + x;
-                var darkness = (255 - capture.pixels[i * 4]) / 255;
+                var darkness = (0 + capture.pixels[i * 4]) / 255;
                 var radius = stepSize * darkness;
                 ellipse(x, y, radius, radius); //edit each pixel
             }
