@@ -1,3 +1,5 @@
+// This is the script for SoundFeels "make some noise" games page
+
 var gamesPopover = document.getElementById('games-popover');
 var letsPlay = document.getElementById('lets-play');
 var closeBtn = document.getElementById('close-btn');
