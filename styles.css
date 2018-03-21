@@ -69,29 +69,36 @@ button {
     align-items: center;
 }
 
-/* About Button Colors */
+/* Listen Button Colors */
 
-#whiteNoise {
+/* White */
+#whiteNoise, #whiteNoisePinkOver, #whiteNoiseBrownOver, #whiteNoiseBlueOver, #whiteNoiseVioletOver, #whiteNoiseGreyOver {
     background-color: #ffffff;
     color: #DBB6B6;
 }
 
-#brownNoise {
+/* Pink */
+#pinkNoise, #pinkNoiseWhiteOver, #pinkNoiseBrownOver, #pinkNoiseBlueOver, #pinkNoiseVioletOver, #pinkNoiseGreyOver {
+    background-color: #ED43AB;
+}
+
+/* Brown */
+#brownNoise, #brownNoiseWhiteOver, #brownNoisePinkOver, #brownNoiseBlueOver, #brownNoiseVioletOver, #brownNoiseGreyOver {
     background-color: #AA520F;
 }
-
-#blueNoise {
-    background-color: #02B5EF;
+/* Blue */
+#blueNoise, #blueNoiseWhiteOver, #blueNoisePinkOver, #blueNoiseBrownOver, #blueNoiseVioletOver, #blueNoiseGreyOver {
+   background-color: #02B5EF;
+}
+/* Violet */
+#violetNoise, #violetNoiseWhiteOver, #violetNoisePinkOver, #violetNoiseBrownOver, #violetNoiseBlueOver, #violetNoiseGreyOver {
+   background-color: #7717C8;
 }
 
-#violetNoise {
-    background-color: #7717C8;
+/* Grey */
+#greyNoise, #greyNoiseWhiteOver, #greyNoisePinkOver, #greyNoiseBrownOver, #greyNoiseBlueOver, #greyNoiseVioletOver {
+   background-color: #B1B1B2;
 }
-
-#greyNoise {
-    background-color: #B1B1B2;
-}
-
 /* Overlay Styles */
 
 #whiteOverlay {
@@ -197,6 +204,7 @@ button {
     right: 10px;
     display: none;
 }
+
 
 .topButton {
   float: left;
