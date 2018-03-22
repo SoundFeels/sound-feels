@@ -23,17 +23,17 @@ var gmbtn3 = document.getElementById('game-button-3');
 var game1;
 var game2;
 var game3;
-gmbtn1.addEventListener('click', function(){
+gmbtn1.addEventListener('click', function() {
     game1 = true;
     game2 = false;
     game3 = false;
 })
-gmbtn2.addEventListener('click', function(){
+gmbtn2.addEventListener('click', function() {
     game1 = false;
     game2 = true;
     game3 = false;
 })
-gmbtn3.addEventListener('click', function(){
+gmbtn3.addEventListener('click', function() {
     game1 = false;
     game2 = false;
     game3 = true;
@@ -63,10 +63,6 @@ function draw() {
     }
 
     if (game2 == true) {
-        background('#0000bb');
-    }
-
-    if (game3 == true) {
         background('#FDB4B5');
         var micLevel = mic.getLevel();
         capture.loadPixels();
@@ -80,5 +76,30 @@ function draw() {
                 ellipse(x, y, radius, radius); //edit each pixel
             }
         }
+    }
+
+    if (game3 == true) {
+        console.log('Game 3 is running.');
+        loadImage('construction.png', function(img) {
+                image(img, 20, height/10);
+            });
+        //sound stuff
+        var micLevel = mic.getLevel();
+        capture.loadPixels();
+        var dim =  (0 + capture.pixels[random * 4]) / 255;
+        //a random point
+        var x = random(width);
+        var y = random(height);
+        var loc = x + y * width;
+        //look up the RGB color @ that povar in image/video
+        loadPixels();
+        var r = red(9);
+        var g = green(9);
+        var b = blue(9);
+        //draw an ellipse at that location with that color
+        noStroke();
+        fill(r, g, b, 100);
+        ellipse(x, y, dim, dim);
+
     }
 }
