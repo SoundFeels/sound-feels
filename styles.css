@@ -56,6 +56,11 @@ main {
     padding-top: 8%;
 }
 
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 button {
     font-family: 'Amatic SC', monospace;
     background-color: #ED43AB;
