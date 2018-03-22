@@ -80,9 +80,12 @@ function draw() {
 
     if (game3 == true) {
         console.log('Game 3 is running.');
-        loadImage('construction.png', function(img) {
-                image(img, 20, height/10);
+        loadImage('construction2.png', function(img) {
+                image(img, 0, 0);
             });
+        //pixel
+        
+
         //sound stuff
         var micLevel = mic.getLevel();
         capture.loadPixels();
