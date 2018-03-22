@@ -28,7 +28,7 @@ var closeGrey = document.getElementById('closeGrey');
 
 // get variables for the buttons in white Overlay
 var pinkNoiseWhiteOver = document.getElementById('pinkNoiseWhiteOver');
-var brownNoiseWhiteOver = document.getElementById('brownNoiseWhite');
+var brownNoiseWhiteOver = document.getElementById('brownNoiseWhiteOver');
 var blueNoiseWhiteOver = document.getElementById('blueNoiseWhiteOver');
 var violetNoiseWhiteOver = document.getElementById('violetNoiseWhiteOver');
 var greyNoiseWhiteOver = document.getElementById('greyNoiseWhiteOver');
