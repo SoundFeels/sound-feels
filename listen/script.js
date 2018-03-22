@@ -68,6 +68,15 @@ var brownNoiseGreyOver = document.getElementById('brownNoiseGreyOver');
 var blueNoiseGreyOver = document.getElementById('blueNoiseGreyOver');
 var violetNoiseGreyOver = document.getElementById('violetNoiseGreyOver');
 
+// Get vars for play buttons
+var whitePlay = document.getElementById('whitePlay');
+var pinkPlay = document.getElementById('pinkPlay');
+var brownPlay = document.getElementById('brownPlay');
+var bluePlay = document.getElementById('bluePlay');
+var violetPlay = document.getElementById('violetPlay');
+var greyPlay = document.getElementById('greyPlay');
+
+
 //open overlays
 whiteNoise.addEventListener('click', function() {
     whiteOverlay.style.display = 'block';
