@@ -46,7 +46,7 @@ button:hover {
     width: 100%;
     height: 100%;
     display: none;
-    background: black;
+    background: #0d2c5e;
 }
 
 main {
@@ -77,33 +77,42 @@ button {
 /* Listen Button Colors */
 
 /* White */
+
 #whiteNoise, #whiteNoisePinkOver, #whiteNoiseBrownOver, #whiteNoiseBlueOver, #whiteNoiseVioletOver, #whiteNoiseGreyOver {
     background-color: #ffffff;
     color: #DBB6B6;
 }
 
 /* Pink */
+
 #pinkNoise, #pinkNoiseWhiteOver, #pinkNoiseBrownOver, #pinkNoiseBlueOver, #pinkNoiseVioletOver, #pinkNoiseGreyOver {
     background-color: #ED43AB;
 }
 
 /* Brown */
+
 #brownNoise, #brownNoiseWhiteOver, #brownNoisePinkOver, #brownNoiseBlueOver, #brownNoiseVioletOver, #brownNoiseGreyOver {
     background-color: #AA520F;
 }
+
 /* Blue */
+
 #blueNoise, #blueNoiseWhiteOver, #blueNoisePinkOver, #blueNoiseBrownOver, #blueNoiseVioletOver, #blueNoiseGreyOver {
-   background-color: #02B5EF;
+    background-color: #02B5EF;
 }
+
 /* Violet */
+
 #violetNoise, #violetNoiseWhiteOver, #violetNoisePinkOver, #violetNoiseBrownOver, #violetNoiseBlueOver, #violetNoiseGreyOver {
-   background-color: #7717C8;
+    background-color: #7717C8;
 }
 
 /* Grey */
+
 #greyNoise, #greyNoiseWhiteOver, #greyNoisePinkOver, #greyNoiseBrownOver, #greyNoiseBlueOver, #greyNoiseVioletOver {
-   background-color: #B1B1B2;
+    background-color: #B1B1B2;
 }
+
 /* Overlay Styles */
 
 #whiteOverlay {
@@ -210,10 +219,9 @@ button {
     display: none;
 }
 
-
 .topButton {
-  float: left;
-  height: 40px;
+    float: left;
+    height: 40px;
 }
 
 footer {
