@@ -1,40 +1,14 @@
-/* NOTE TO CAMERON: Maybe we should divide this up by sections like "typography" "colors" "positioning" to make it easier to find what we wanna edit? Cause I'm starting to get confused.  */
+/* NOTE: Tara is in the midst of reorganizing our style sheet so it's uh... more organized. Yeah. */
 
-body {
-    background-color: #0d2c5e;
-    font-family: 'Baloo Paaji', sans-serif;
-    color: white;
-    font-size: 1.3rem;
-}
+/* POSITIONING - - - - - - - - */
 
 header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #ffb4b4;
     height: 12%;
     padding-top: 1%;
     text-align: center;
-    font-size: 1.5rem;
-}
-
-h1 {
-    font-family: 'Baloo Paaji', sans-serif;
-    letter-spacing: 6px;
-}
-
-h2, nav, a, button {
-    color: white;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #ED43AB;
-}
-
-button:hover {
-    color: #ED43AB;
-    background-color: #ffb4b4;
 }
 
 #games-popover {
@@ -52,10 +26,6 @@ main {
     margin-top: 120px;
 }
 
-p {
-    font-family: 'Josefin Sans', sans-serif;
-}
-
 main div {
     display: flex;
     max-width: 730px;
@@ -63,28 +33,113 @@ main div {
     margin-right: auto;
 }
 
-main a {
-    width: 730px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-button {
-    font-family: 'Amatic SC', monospace;
-    background-color: #ED43AB;
-    border-radius: 12px;
-    border: none;
-    width: 100%;
-    height: 50%;
-    max-width: 730px;
-    margin: 3%;
-    padding: 1.5%;
-    align-items: center;
-}
-
 #emoji {
     display: block;
 }
+
+.button-like {
+    padding-top: 12px;
+    text-align: center;
+    width: 200px;
+    height: 38px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+}
+
+.topButton {
+    float: left;
+    height: 40px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 12%;
+    padding-bottom: 1%;
+}
+
+footer li {
+    display: inline-block;
+}
+
+.bottomspace {
+    margin-bottom: 18%;
+}
+
+/* TYPOGRAPHY - - - - - - - - */
+
+body {
+    font-family: 'Baloo Paaji', sans-serif;
+    font-size: 1.3rem;
+}
+
+header {
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-family: 'Baloo Paaji', sans-serif;
+    letter-spacing: 6px;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button-like {
+    font-family: 'Amatic SC', monospace;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Baloo Paaji', sans-serif;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+}
+
+/* COLORS - - - - - - - - */
+
+body {
+    background-color: #0d2c5e;
+    color: white;
+}
+
+header {
+    background-color: #ffb4b4;
+}
+
+h2 {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #ED43AB;
+}
+
+button:hover {
+    color: #ED43AB;
+    background-color: #ffb4b4;
+}
+
+.button-like {
+    background-color: #ED43AB;
+}
+
+footer {
+    background-color: #DBB6B6;
+}
+
+/* - - - - - - */
 
 /* Listen Button Colors */
 
@@ -229,30 +284,4 @@ button {
     top: 10px;
     right: 10px;
     display: none;
-}
-
-.topButton {
-    float: left;
-    height: 40px;
-}
-
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #DBB6B6;
-    height: 12%;
-    padding-bottom: 1%;
-    text-align: center;
-    font-family: 'Baloo Paaji', sans-serif;
-    letter-spacing: 2px;
-    font-size: 1.2rem;
-}
-
-footer li {
-    display: inline-block;
-}
-
-.bottomspace {
-    margin-bottom: 18%;
 }
