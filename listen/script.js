@@ -19,12 +19,7 @@ var violetOverlay = document.getElementById('violetOverlay');
 var greyOverlay = document.getElementById('greyOverlay');
 
 // get variables for close buttons
-var closeWhite = document.getElementById('closeWhite');
-var closePink = document.getElementById('closePink');
-var closeBrown = document.getElementById('closeBrown');
-var closeBlue = document.getElementById('closeBlue');
-var closeViolet = document.getElementById('closeViolet');
-var closeGrey = document.getElementById('closeGrey');
+var closeXO = document.getElementsByClassName('close-xo');
 
 // get variables for the buttons in white Overlay
 var pinkNoiseWhiteOver = document.getElementById('pinkNoiseWhiteOver');
@@ -80,56 +75,56 @@ var greyPlay = document.getElementById('greyPlay');
 //open overlays
 whiteNoise.addEventListener('click', function() {
     whiteOverlay.style.display = 'block';
-    closeWhite.style.display = 'block';
+    closeXO.style.display = 'block';
 });
 
 pinkNoise.addEventListener('click', function() {
     pinkOverlay.style.display = 'block';
-    closePink.style.display = 'block';
+    closeXO.style.display = 'block';
 });
 
 brownNoise.addEventListener('click', function() {
     brownOverlay.style.display = 'block';
-    closeBrown.style.display = 'block';
+    closeXO.style.display = 'block';
 });
 
 blueNoise.addEventListener('click', function() {
     blueOverlay.style.display = 'block';
-    closeBlue.style.display = 'block';
+    closeXO.style.display = 'block';
 });
 
 violetNoise.addEventListener('click', function() {
     violetOverlay.style.display = 'block';
-    closeViolet.style.display = 'block';
+    closeXO.style.display = 'block';
 });
 
 greyNoise.addEventListener('click', function() {
     greyOverlay.style.display = 'block';
-    closeGrey.style.display = 'block';
+    closeXO.style.display = 'block';
 });
 
 //close overlays
-closeWhite.addEventListener('click', function() {
+closeXO.addEventListener('click', function() {
     whiteOverlay.style.display = 'none';
 });
 
-closePink.addEventListener('click', function() {
+closeXO.addEventListener('click', function() {
     pinkOverlay.style.display = 'none';
 });
 
-closeBrown.addEventListener('click', function() {
+closeXO.addEventListener('click', function() {
     brownOverlay.style.display = 'none';
 });
 
-closeBlue.addEventListener('click', function() {
+closeXO.addEventListener('click', function() {
     blueOverlay.style.display = 'none';
 });
 
-closeViolet.addEventListener('click', function() {
+closeXO.addEventListener('click', function() {
     violetOverlay.style.display = 'none';
 });
 
-closeGrey.addEventListener('click', function() {
+closeXO.addEventListener('click', function() {
     greyOverlay.style.display = 'none';
 });
 
@@ -137,186 +132,186 @@ closeGrey.addEventListener('click', function() {
 pinkNoiseWhiteOver.addEventListener('click', function() {
     whiteOverlay.style.display = 'none';
     pinkOverlay.style.display = 'block';
-    closePink.style.display = 'block';
+    closeXO.style.display = 'block';
 });
 
 brownNoiseWhiteOver.addEventListener('click', function() {
     whiteOverlay.style.display = 'none';
     brownOverlay.style.display = 'block';
-    closeBrown.style.display = 'block';
+    closeXO.style.display = 'block';
 });
 
 blueNoiseWhiteOver.addEventListener('click', function() {
     whiteOverlay.style.display = 'none';
     blueOverlay.style.display = 'block';
-    closeBlue.style.display = 'block';
+    closeXO.style.display = 'block';
 });
 
 violetNoiseWhiteOver.addEventListener('click', function() {
     whiteOverlay.style.display = 'none';
     violetOverlay.style.display = 'block';
-    closeViolet.style.display = 'block';
+    closeXO.style.display = 'block';
 });
 
 greyNoiseWhiteOver.addEventListener('click', function() {
     whiteOverlay.style.display = 'none';
     greyOverlay.style.display = 'block';
-    closeGrey.style.display = 'block';
+    closeXO.style.display = 'block';
 });
 
 // event listeners for Pink overlay
 whiteNoisePinkOver.addEventListener('click', function() {
     pinkOverlay.style.display = 'none';
     whiteOverlay.style.display = 'block';
-    closeWhite.style.display = 'block';
+    closeXO.style.display = 'block';
 });
 
 brownNoisePinkOver.addEventListener('click', function() {
     pinkOverlay.style.display = 'none';
     brownOverlay.style.display = 'block';
-    closeBrown.style.display = 'block';
+    closeXO.style.display = 'block';
 });
 
 blueNoisePinkOver.addEventListener('click', function() {
     pinkOverlay.style.display = 'none';
     blueOverlay.style.display = 'block';
-    closeBlue.style.display = 'block';
+    closeXO.style.display = 'block';
 });
 
 violetNoisePinkOver.addEventListener('click', function() {
     pinkOverlay.style.display = 'none';
     violetOverlay.style.display = 'block';
-    closeViolet.style.display = 'block';
+    closeXO.style.display = 'block';
 });
 
 
 greyNoisePinkOver.addEventListener('click', function() {
     pinkOverlay.style.display = 'none';
     greyOverlay.style.display = 'block';
-    closeGrey.style.display = 'block';
+    closeXO.style.display = 'block';
 });
 
 // event listeners for Brown overlay
 whiteNoiseBrownOver.addEventListener('click', function() {
     brownOverlay.style.display = 'none';
     whiteOverlay.style.display = 'block';
-    closeWhite.style.display = 'block';
+    closeXO.style.display = 'block';
 });
 
 pinkNoiseBrownOver.addEventListener('click', function() {
     brownOverlay.style.display = 'none';
     pinkOverlay.style.display = 'block';
-    closePink.style.display = 'block';
+    closeXO.style.display = 'block';
 });
 
 blueNoiseBrownOver.addEventListener('click', function() {
     brownOverlay.style.display = 'none';
     blueOverlay.style.display = 'block';
-    closeBlue.style.display = 'block';
+    closeXO.style.display = 'block';
 });
 
 violetNoiseBrownOver.addEventListener('click', function() {
     brownOverlay.style.display = 'none';
     violetOverlay.style.display = 'block';
-    closeViolet.style.display = 'block';
+    closeXO.style.display = 'block';
 });
 
 
 greyNoiseBrownOver.addEventListener('click', function() {
     brownOverlay.style.display = 'none';
     greyOverlay.style.display = 'block';
-    closeGrey.style.display = 'block';
+    closeXO.style.display = 'block';
 });
 
 // event listeners for Blue overlay
 whiteNoiseBlueOver.addEventListener('click', function() {
     blueOverlay.style.display = 'none';
     whiteOverlay.style.display = 'block';
-    closeWhite.style.display = 'block';
+    closeXO.style.display = 'block';
 });
 
 pinkNoiseBlueOver.addEventListener('click', function() {
     blueOverlay.style.display = 'none';
     pinkOverlay.style.display = 'block';
-    closePink.style.display = 'block';
+    closeXO.style.display = 'block';
 });
 
 brownNoiseBlueOver.addEventListener('click', function() {
     blueOverlay.style.display = 'none';
     brownOverlay.style.display = 'block';
-    closeBrown.style.display = 'block';
+    closeXO.style.display = 'block';
 });
 
 violetNoiseBlueOver.addEventListener('click', function() {
     blueOverlay.style.display = 'none';
     violetOverlay.style.display = 'block';
-    closeViolet.style.display = 'block';
+    closeXO.style.display = 'block';
 });
 
 greyNoiseBlueOver.addEventListener('click', function() {
     blueOverlay.style.display = 'none';
     greyOverlay.style.display = 'block';
-    closeGrey.style.display = 'block';
+    closeXO.style.display = 'block';
 });
 
 // event listeners for Violet overlay
 whiteNoiseVioletOver.addEventListener('click', function() {
     violetOverlay.style.display = 'none';
     whiteOverlay.style.display = 'block';
-    closeWhite.style.display = 'block';
+    closeXO.style.display = 'block';
 });
 
 pinkNoiseVioletOver.addEventListener('click', function() {
     violetOverlay.style.display = 'none';
     pinkOverlay.style.display = 'block';
-    closePink.style.display = 'block';
+    closeXO.style.display = 'block';
 });
 
 brownNoiseVioletOver.addEventListener('click', function() {
     violetOverlay.style.display = 'none';
     brownOverlay.style.display = 'block';
-    closeBrown.style.display = 'block';
+    closeXO.style.display = 'block';
 });
 
 blueNoiseVioletOver.addEventListener('click', function() {
     violetOverlay.style.display = 'none';
     blueOverlay.style.display = 'block';
-    closeViolet.style.display = 'block';
+    closeXO.style.display = 'block';
 });
 
 greyNoiseVioletOver.addEventListener('click', function() {
     violetOverlay.style.display = 'none';
     greyOverlay.style.display = 'block';
-    closeGrey.style.display = 'block';
+    closeXO.style.display = 'block';
 });
 
 // event listeners for Grey overlay
 whiteNoiseGreyOver.addEventListener('click', function() {
     greyOverlay.style.display = 'none';
     whiteOverlay.style.display = 'block';
-    closeWhite.style.display = 'block';
+    closeXO.style.display = 'block';
 });
 
 pinkNoiseGreyOver.addEventListener('click', function() {
     greyOverlay.style.display = 'none';
     pinkOverlay.style.display = 'block';
-    closePink.style.display = 'block';
+    closeXO.style.display = 'block';
 });
 
 brownNoiseGreyOver.addEventListener('click', function() {
     greyOverlay.style.display = 'none';
     brownOverlay.style.display = 'block';
-    closeBrown.style.display = 'block';
+    closeXO.style.display = 'block';
 });
 
 blueNoiseGreyOver.addEventListener('click', function() {
     greyOverlay.style.display = 'none';
     blueOverlay.style.display = 'block';
-    closeViolet.style.display = 'block';
+    closeXO.style.display = 'block';
 });
 
 violetNoiseGreyOver.addEventListener('click', function() {
     greyOverlay.style.display = 'none';
     violetOverlay.style.display = 'block';
-    closeGrey.style.display = 'block';
+    closeXO.style.display = 'block';
 });

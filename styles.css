@@ -244,44 +244,8 @@ footer {
 
 /* close button styles */
 
-#closeWhite {
+.close-xo {
     position: absolute;
     top: 10px;
     right: 10px;
-    display: none;
-}
-
-#closePink {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    display: none;
-}
-
-#closeBrown {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    display: none;
-}
-
-#closeBlue {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    display: none;
-}
-
-#closeViolet {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    display: none;
-}
-
-#closeGrey {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    display: none;
 }
